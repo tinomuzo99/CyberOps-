@@ -1,0 +1,51 @@
+{
+  "patient_id": "example-uuid",
+  "profile": {
+    "full_name": "Jane Doe",
+    "dob": "1970-06-12",
+    "blood_type": "O+",
+    "medical_aid": {
+      "provider": "Discovery",
+      "plan": "Classic",
+      "member_no": "AB123456",
+      "emergency_hotline": "+27 86 123 4567"
+    }
+  },
+  "emergency_contacts": [
+    {"name": "John Doe", "relation": "Son", "phone": "+27 82 000 0000"}
+  ],
+  "conditions": [
+    {"name": "Asthma", "severity": "moderate", "notes": "Cold air trigger"}
+  ],
+  "allergies": [
+    {"substance": "Penicillin", "reaction": "Rash", "severity": "high"}
+  ],
+  "medications": [
+    {
+      "name": "Tiotropium capsules",
+      "device": {
+        "type": "Dry powder inhaler",
+        "model": "HandiHaler",
+        "photos": ["/media/handihaler_front.jpg", "/media/capsule.jpg"]
+      },
+      "dosage": "18 µg once daily",
+      "storage_location": "Handbag, front pouch",
+      "how_to_use_steps": [
+        "Open dust cap and mouthpiece.",
+        "Place one capsule in the chamber.",
+        "Close mouthpiece until it clicks; press button once to pierce capsule.",
+        "Exhale away, seal lips around mouthpiece; inhale deeply; hold breath; repeat."
+      ],
+      "warnings": ["Do not swallow capsules."],
+      "leaflets": ["/docs/handihaler_pil.pdf"],
+      "last_updated": "2025-09-01"
+    }
+  ],
+  "preferences": {
+    "preferred_hospital": "Stellenbosch Provincial Hospital",
+    "gp": "Dr N."
+  },
+  "meta": {
+    "last_reviewed": "2025-09-10"
+  }
+}
